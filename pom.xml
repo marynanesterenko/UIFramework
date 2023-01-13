@@ -74,7 +74,7 @@
         </dependency>
 
         <!-- GOOGLE FLOGGER (regular and system-backend) -->
-        <!-- This is a fluent logging API for Java. Features / Benefits: -->
+        <!-- This is a fluent logging API for Java. Why do I use it? Features / Benefits: -->
         <!-- 1. logging at disabled levels is free - we can add as many fine-grained log statements to our code as we want; -->
         <!-- 2. high performance for enabled log statements; -->
         <!-- 3. accommodates a variety of present and future features w/o combinatorial explosion and w/o req separate logging facades; -->
@@ -131,6 +131,12 @@
             <groupId>commons-dbutils</groupId>
             <artifactId>commons-dbutils</artifactId>
             <version>1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
